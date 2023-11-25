@@ -29,9 +29,9 @@ button {
 }
 
 * Global Styles */ body {
-  font-family: var(--font-family);
-  color: var(--slate);
-  background-color: var(--white);
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 a {
