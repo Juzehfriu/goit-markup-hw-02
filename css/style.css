@@ -51,11 +51,66 @@ header {
 }
 
 .logo {
-  font-size: 24px;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
 }
 
-nav {
+.logo-studio {
+  color: var(--grey);
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--grey);
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--ocean);
+}
+
+.nav-link:focus {
+  color: var(--ocean);
+}
+
+address {
+  font-style: normal;
+}
+
+.contact-links {
+  list-style: none;
+}
+.contact-links li {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.contact-link {
+  text-decoration: none;
+}
+
+.contact-link:hover,
+:focus {
+  color: var(--ocean);
+}
+/* nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,7 +124,7 @@ nav ul {
 .nav-link {
   margin-right: 20px;
   font-weight: 500;
-}
+} */
 
 /* Main Styles */
 main {
