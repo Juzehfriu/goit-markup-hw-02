@@ -92,6 +92,7 @@ address {
 
 .address-link {
   text-decoration: none;
+  color: var(--slate);
 }
 
 .address-link:hover,
