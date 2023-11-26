@@ -186,7 +186,7 @@ address {
 }
 
 /* Footer Styles */
-footer {
+.footer {
   background-color: var(--navy-blue);
 }
 
@@ -194,6 +194,10 @@ footer {
   line-height: 1.5;
   color: var(--cloud);
   letter-spacing: 0.02em;
+}
+
+.footer-logo-studio {
+  color: var(--cloud);
 }
 
 /* Responsive Styles */
