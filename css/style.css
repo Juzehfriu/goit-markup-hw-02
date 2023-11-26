@@ -186,6 +186,15 @@ address {
 }
 
 /* Footer Styles */
+footer {
+  background-color: var(--navy-blue);
+}
+
+.footer-text {
+  line-height: 1.5;
+  color: var(--cloud);
+  letter-spacing: 0.02em;
+}
 
 /* Responsive Styles */
 /* @media (max-width: 768px) {
