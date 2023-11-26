@@ -154,7 +154,7 @@ address {
 
 /* Section-3 */
 
-.section-3 {
+.third-section {
   background-color: var(--cloud);
 }
 
@@ -167,9 +167,9 @@ address {
   letter-spacing: 0.02em;
 }
 
-/* .team-card-list {
+.team-card-list {
   background-color: var(--white);
-} */
+}
 
 .third-section-header {
   font-weight: 500;
