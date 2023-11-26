@@ -42,7 +42,7 @@ header {
   text-transform: uppercase;
   color: var(--iris);
 }
-.logo .logo-text link {
+link {
   text-decoration: none;
 }
 
