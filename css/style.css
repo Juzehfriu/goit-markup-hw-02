@@ -46,6 +46,10 @@ link {
   text-decoration: none;
 }
 
+list {
+  color: var(--grey);
+}
+
 .logo span {
   color: var(--grey);
 }
