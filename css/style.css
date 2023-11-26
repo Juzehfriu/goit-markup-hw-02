@@ -143,7 +143,7 @@ address {
 }
 
 /* Section-2 */
-.section-2-header {
+.second-section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -158,13 +158,31 @@ address {
   background-color: var(--cloud);
 }
 
-.section-3-header {
+.third-section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--navy-blue);
+  letter-spacing: 0.02em;
+}
+
+/* .team-card-list {
+  background-color: var(--white);
+} */
+
+.third-section-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
+  letter-spacing: 0.02em;
+}
+
+.third-section-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Footer Styles */
