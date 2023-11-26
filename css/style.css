@@ -142,6 +142,31 @@ address {
   letter-spacing: 0.02em;
 }
 
+/* Section-2 */
+.section-2-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+
+/* Section-3 */
+
+.section-3 {
+  background-color: var(--cloud);
+}
+
+.section-3-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+
 /* Footer Styles */
 
 /* Responsive Styles */
