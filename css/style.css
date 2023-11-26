@@ -76,21 +76,21 @@ address {
   font-style: normal;
 }
 
-.contact-links {
+.address-links {
   list-style: none;
 }
-.contact-links li {
+.address-links li {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
 
-.contact-link {
+.address-link {
   text-decoration: none;
 }
 
-.contact-link:hover,
+.address-link:hover,
 :focus {
   color: var(--ocean);
 }
