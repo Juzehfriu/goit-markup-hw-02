@@ -43,10 +43,7 @@ header {
   color: var(--iris);
 }
 
-.logo-style {
-  text-decoration: none;
-}
-.logo-studio {
+.logo span {
   color: var(--grey);
 }
 
