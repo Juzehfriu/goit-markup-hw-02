@@ -65,6 +65,7 @@ link {
 
 .nav-link {
   text-decoration: none;
+  color: var(--grey);
 }
 
 .nav-link:hover {
@@ -73,10 +74,6 @@ link {
 
 .nav-link:focus {
   color: var(--ocean);
-}
-
-.nav-studio {
-  color: var(--grey);
 }
 
 address {
