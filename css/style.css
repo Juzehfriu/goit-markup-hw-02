@@ -102,6 +102,7 @@ address {
 
 /* Main Styles */
 
+/* Hero Section Styles */
 .hero-section {
   background-color: var(--grey);
 }
@@ -127,7 +128,19 @@ address {
   background-color: var(--ocean);
 }
 
-/* Hero Section Styles */
+/* Section-1 */
+.section-1-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--grey);
+}
+.section-1-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 /* Footer Styles */
 
