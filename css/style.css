@@ -42,6 +42,9 @@ header {
   text-transform: uppercase;
   color: var(--iris);
 }
+.logo .logo-text link {
+  text-decoration: none;
+}
 
 .logo span {
   color: var(--grey);
