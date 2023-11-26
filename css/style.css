@@ -1,4 +1,5 @@
-* Variables */ :root {
+/* Variables */
+:root {
   --iris: #4d5ae5;
   --ocean: #404bbf;
   --navy-blue: #2e2f42;
@@ -28,7 +29,8 @@ button {
   padding: 0;
 }
 
-* Global Styles */ body {
+/* Global Styles */
+body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -36,21 +38,16 @@ button {
 
 a {
   text-decoration: none;
-  color: var(--link-color);
-}
-
-a:hover {
-  color: var(--link-hover-color);
 }
 
 /* Header Styles */
 header {
-  background-color: var(--header-bg-color);
-  box-shadow: var(--header-shadow);
+  background-color: var(--white);
   padding: 20px;
 }
 
 .logo {
+  text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -110,6 +107,10 @@ address {
 :focus {
   color: var(--ocean);
 }
+
+#hero-section {
+  background-color: var(--grey);
+}
 /* nav {
   display: flex;
   justify-content: space-between;
@@ -127,65 +128,10 @@ nav ul {
 } */
 
 /* Main Styles */
-main {
-  padding: 20px;
-}
 
 /* Hero Section Styles */
-#hero-section {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-h1 {
-  font-size: 36px;
-  font-weight: 800;
-  margin-bottom: 20px;
-}
-
-.order-service-button {
-  background-color: var(--primary-color);
-  color: #fff;
-  padding: 15px 30px;
-  font-size: 18px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-}
-
-.order-service-button::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.2);
-  z-index: -1;
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.3s ease;
-}
-
-.order-service-button:hover::before {
-  transform: scaleX(1);
-  transform-origin: left;
-}
 
 /* Footer Styles */
-footer {
-  background-color: var(--secondary-color);
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-.footer-logo {
-  font-size: 24px;
-  font-weight: 800;
-}
 
 /* Responsive Styles */
 /* @media (max-width: 768px) {
