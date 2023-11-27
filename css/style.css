@@ -200,6 +200,35 @@ address {
   color: var(--cloud);
 }
 
+/* Portfolio Design */
+.button {
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+  cursor: pointer;
+}
+.button:hover :focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.portfolio-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--grey);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
 /* Responsive Styles */
 /* @media (max-width: 768px) {
   nav {
