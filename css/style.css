@@ -201,8 +201,8 @@ address {
 }
 
 /* Portfolio Design */
-.button {
-  font-family: "roboto", sans-serif;
+.filter-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -211,7 +211,8 @@ address {
   background-color: var(--cloud);
   cursor: pointer;
 }
-.button:hover :focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--white);
   background-color: var(--ocean);
 }
